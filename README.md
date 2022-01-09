@@ -31,13 +31,15 @@ This feature/project leverages Python 3.7 with the following packages:
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
-![CLI user interactions for the loan application](Desktop/step_1.png)
+![CLI user interactions for the loan application](file:///Users/michaeladut/Desktop/challenges/challenge2/step_1.png)
 
 ---
 
 ## Contributors
 
 In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+
+
 
 ---
 
