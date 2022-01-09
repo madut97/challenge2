@@ -103,6 +103,13 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
+def save_csv(list):
+    csvpath_new = questionary.text("Enter a file path to save the qualified loans (.csv):").ask()
+    csv_path = Path(csvpath_new)
+    with open(csv_path, 'w', newline = '') as csvfile:
+        writer = csv.writer(csvfile)
+        for row in list:
+            writer.writerow(row)
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
@@ -116,12 +123,7 @@ def save_qualifying_loans(qualifying_loans):
     else:
         user_answer = questionary.confirm("Would you like to save qualifying loans in a csv file?").ask()
     if user_answer:
-        csvpath_new = questionary.text("Enter a file path to save the qualified loans (.csv):").ask()
-        qualified_loans_path = Path(csvpath_new)
-        with open(qualified_loans_path, 'w', newline = '') as csvfile:
-            writer = csv.writer(csvfile)
-            for loan in qualifying_loans:
-                writer.writerow(loan)
+        save_csv(qualifying_loans)
 
 def run():
     """The main function for running the script."""
