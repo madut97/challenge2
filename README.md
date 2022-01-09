@@ -1,19 +1,18 @@
 # *Save Qualified Loans as New CSV*
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
-
 **This project is a new feature which will be added to the our existing loan qualifier app. The new feature will allow users who would like to save their list of qualified loaners as a csv file. The main problem which has inspired us to add this feature is the lack of a save csv functionality, which makes it difficult for the user to access their list of qualified loaners, which they meet the criteria for.**
+
+## Directory 
+
+[Progam](app)
+[Program Functions](qualifier)
+[Data files](data)
 
 ---
 
 ## *Technologies*
 
 This feature/project leverages Python 3.7 with the following packages:
-
-* pip install questionary
-* pip install sys
-* pip install fire 
-
 ---
 
 ## Installation Guide
@@ -22,14 +21,17 @@ In this section, you should include detailed installation notes containing code 
 
 Before running the application install the following applications
 
+This feature/project leverages Python 3.7 with the following packages:
 
-
+* pip install questionary
+* pip install sys
+* pip install fire 
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
-
+![CLI user interactions for the loan application](/Users/michaeladut/Desktop/step_1.png)
 
 ---
 
