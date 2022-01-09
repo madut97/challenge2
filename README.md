@@ -1,4 +1,4 @@
-# *Save Qualified Loans as New CSV CLI*
+# Save Qualified Loans as New CSV CLI
 
 **This project is a new feature which will be added to the our existing loan qualifier app. The new feature will allow users who would like to save their list of qualified loaners as a csv file. The main problem which has inspired us to add this feature is the lack of a save csv functionality, which makes it difficult for the user to access their list of qualified loaners, which they meet the criteria for.**
 
@@ -23,7 +23,7 @@ This feature/project leverages Python 3.7 with the following packages:
 * [sys](https://github.com/python/cpython/blob/main/Python/sysmodule.c) - For exiting the app if user credentials fail to meet criteria
 ---   
 
-## Installation Guide
+## *Installation Guide*
 
 Before running the application first install the following dependencies.
 
@@ -33,7 +33,7 @@ Before running the application first install the following dependencies.
   pip install sys
 ```
 
-## Usage
+## *Usage*
 
 Step1: Asks user the csv path to rate-sheet to be used:
 
@@ -49,7 +49,7 @@ Step3: If qualified loans exist for the user, feature asks user whether or not i
 
 --- 
 
-## Contributors
+## *Contributors*
 
 Brought to you by Michael Adut
 
@@ -59,6 +59,6 @@ Brought to you by Michael Adut
 
 ---
 
-## License
+## *License*
 
-
+Columbia University

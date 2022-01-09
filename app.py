@@ -10,7 +10,6 @@ from re import L
 import sys
 import fire
 import questionary
-import csv
 from pathlib import Path
 
 from qualifier.utils.fileio import load_csv
@@ -24,7 +23,7 @@ from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
-
+from new_csv_creator.new_csv import save_qualified_loans_to_new_csv
 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
@@ -103,14 +102,6 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-def save_csv(list):
-    csvpath_new = questionary.text("Enter a file path to save the qualified loans (.csv):").ask()
-    csv_path = Path(csvpath_new)
-    with open(csv_path, 'w', newline = '') as csvfile:
-        writer = csv.writer(csvfile)
-        for row in list:
-            writer.writerow(row)
-
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
@@ -123,7 +114,7 @@ def save_qualifying_loans(qualifying_loans):
     else:
         user_answer = questionary.confirm("Would you like to save qualifying loans in a csv file?").ask()
     if user_answer:
-        save_csv(qualifying_loans)
+        save_qualified_loans_to_new_csv(qualifying_loans)
 
 def run():
     """The main function for running the script."""
@@ -145,3 +136,4 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+
