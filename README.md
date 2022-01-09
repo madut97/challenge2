@@ -31,7 +31,7 @@ This feature/project leverages Python 3.7 with the following packages:
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
-![CLI user interactions for the loan application](file:///Users/michaeladut/Desktop/step_1.png)
+![CLI user interactions for the loan application](https://github.com/madut97/challenge2/blob/master/step_1.png)
 
 ---
 
