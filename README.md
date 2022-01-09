@@ -39,15 +39,17 @@ Step1: Asks user the csv path to rate-sheet to be used:
 
 Step2: If qualified loans exist for the user, feature asks user whether or not if they would like to save results to a new csv file:
 
-![Loan qualifier prompt 2]()
+![Loan qualifier prompt 2](images/step_2.png)
 
 --- 
 
 ## Contributors
 
 Brought to you by Michael Adut
-email: mia269@nyu.edu
-linkedin: https://www.linkedin.com/in/michael-adut-a3a43b100/
+
+* email: mia269@nyu.edu
+
+* linkedin: https://www.linkedin.com/in/michael-adut-a3a43b100/
 
 ---
 
