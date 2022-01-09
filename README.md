@@ -4,9 +4,11 @@
 
 ## Directory 
 
-[Progam](app)
-[Program Functions](qualifier)
-[Data files](data)
+* [Progam](app)
+
+* [Program Functions](qualifier)
+
+* [Data files](data)
 
 ---
 
@@ -43,7 +45,7 @@ Step2: If qualified loans exist for the user, feature asks user whether or not i
 
 Step3: If qualified loans exist for the user, feature asks user whether or not if they would like to save results to a new csv file:
 
-![Loan qualifier prompt 3]()
+![Loan qualifier prompt 3](https://github.com/madut97/challenge2/blob/master/images/step_3.png)
 
 --- 
 
@@ -59,4 +61,4 @@ Brought to you by Michael Adut
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+
