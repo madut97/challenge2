@@ -39,7 +39,7 @@ Step1: Asks user the csv path to rate-sheet to be used:
 
 Step2: If qualified loans exist for the user, feature asks user whether or not if they would like to save results to a new csv file:
 
-![Loan qualifier prompt 2](images/step_2.png)
+![Loan qualifier prompt 2](https://github.com/madut97/challenge2/blob/master/images/step-2.png)
 
 --- 
 
