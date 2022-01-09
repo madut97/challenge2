@@ -1,0 +1,50 @@
+  458  /Users/michaeladut/opt/anaconda3/envs/dev/bin/python /Users/michaeladut/Desktop/challenges/challenge2/app.py
+  459  /Users/michaeladut/opt/anaconda3/bin/jupyter_mac.command ; exit;
+  460  cd Desktop/
+  461  ls
+  462  cd challenges/
+  463  cd challenges12
+  464  cd challenges2
+  465  ls
+  466  cd challenge2
+  467  ls
+  468  cd data
+  469  touch qualified_loans.csv
+  470  cler
+  471  clear
+  472  ../
+  473  cd ..
+  474  cd ..
+  475  cd ..
+  476  cd ~
+  477  cd Desktop/
+  478  cd challenges/
+  479  ls
+  480  cd challenge2
+  481  ls
+  482  cd data/
+  483  touch qualified_loans.csv
+  484  cd !
+  485  cd ~
+  486  cd Desktop
+  487  cd challenges/
+  488  ls
+  489  cd challenge2
+  490  ls
+  491  cd data
+  492  touch qualified_loans.csv
+  493  clear
+  494  cd ~
+  495  conda activate dev
+  496  jupyterlab
+  497  jupyter notebook
+  498  source /Users/michaeladut/opt/anaconda3/bin/activate
+  499  conda activate dev
+  500  /Users/michaeladut/opt/anaconda3/envs/dev/bin/python /Users/michaeladut/Desktop/challenges/challenge2/app.py
+  501  cd Desktop
+  502  ls
+  503  cd challenges/
+  504  ls
+  505  cd challenge2
+  506  ls
+  507  history 50 > terminal_history.txt
