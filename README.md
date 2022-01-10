@@ -1,6 +1,6 @@
 # Save Qualified Loans as New CSV CLI
 
-**This project is a new feature which will be added to the our existing loan qualifier app. The new feature will allow users who would like to save their list of qualified loaners as a csv file. The main problem which has inspired us to add this feature is the lack of a save csv functionality, which makes it difficult for the user to access their list of qualified loaners, which they meet the criteria for.**
+**This project is a new feature which will be added to the our existing loan qualifier app. The new feature will allow users who would like to save their list of qualified loans as a csv file. The main problem which has inspired us to add this feature is the lack of a save csv functionality/utility, which makes it difficult for the user to access their list of qualified loaners that they meet the criteria for.**
 
 ## Directory:
 
@@ -37,15 +37,15 @@ Before running the application first install the following dependencies.
 
 ## *Usage*
 
-Step1: Asks user the csv path to rate-sheet to be used:
+Step1: Asks user the csv path to rate-sheet to be used
 
 ![Loan qualifier prompt 1](https://github.com/madut97/challenge2/blob/master/images/step_1.png)
 
-Step2: If qualified loans exist for the user, feature asks user whether or not if they would like to save results to a new csv file:
+Step2: If qualified loans exist for the user, feature asks user whether or not they would like to save results to a new csv file
 
 ![Loan qualifier prompt 2](https://github.com/madut97/challenge2/blob/master/images/step-2.png)
 
-Step3: If qualified loans exist for the user, feature asks user whether or not if they would like to save results to a new csv file:
+Step3: User enters the desired csv path to be used in storing the qualified loans
 
 ![Loan qualifier prompt 3](https://github.com/madut97/challenge2/blob/master/images/step_3.png)
 
@@ -63,4 +63,4 @@ Brought to you by Michael Adut
 
 ## *License*
 
-Columbia University
+MIT
