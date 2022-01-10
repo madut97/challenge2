@@ -1,50 +1,50 @@
-  458  /Users/michaeladut/opt/anaconda3/envs/dev/bin/python /Users/michaeladut/Desktop/challenges/challenge2/app.py
-  459  /Users/michaeladut/opt/anaconda3/bin/jupyter_mac.command ; exit;
-  460  cd Desktop/
-  461  ls
-  462  cd challenges/
-  463  cd challenges12
-  464  cd challenges2
-  465  ls
-  466  cd challenge2
-  467  ls
-  468  cd data
-  469  touch qualified_loans.csv
-  470  cler
-  471  clear
-  472  ../
-  473  cd ..
-  474  cd ..
-  475  cd ..
-  476  cd ~
-  477  cd Desktop/
-  478  cd challenges/
-  479  ls
-  480  cd challenge2
-  481  ls
-  482  cd data/
-  483  touch qualified_loans.csv
-  484  cd !
-  485  cd ~
-  486  cd Desktop
-  487  cd challenges/
-  488  ls
-  489  cd challenge2
-  490  ls
-  491  cd data
-  492  touch qualified_loans.csv
-  493  clear
-  494  cd ~
-  495  conda activate dev
-  496  jupyterlab
-  497  jupyter notebook
-  498  source /Users/michaeladut/opt/anaconda3/bin/activate
-  499  conda activate dev
-  500  /Users/michaeladut/opt/anaconda3/envs/dev/bin/python /Users/michaeladut/Desktop/challenges/challenge2/app.py
-  501  cd Desktop
-  502  ls
-  503  cd challenges/
-  504  ls
-  505  cd challenge2
-  506  ls
-  507  history 50 > terminal_history.txt
+  515  git push
+  516  git commit -a -m "latest updates to README"
+  517  git push
+  518  touch .gitignore
+  519  git status
+  520  git add .gitignore
+  521  clear
+  522  git push
+  523  ls
+  524  git status
+  525  git commit -m "adding gitignore file"
+  526  git push
+  527  status
+  528  git status
+  529  git add .
+  530  git status
+  531  git commit -m "new changes to README and images"
+  532  git push
+  533  git status
+  534  git commit -m "changes to README"
+  535  git add .
+  536  git status
+  537  git commit -m "changes to README"
+  538  git push
+  539  git add .
+  540  git commit -m "changed image link for step-2"
+  541  git push
+  542  git status
+  543  git status
+  544  git add .
+  545  git commit -m "changed image link for step-2"
+  546  git push
+  547  git status
+  548  git add .
+  549  git status
+  550  git commit -m "adding image for step-3"
+  551  git push
+  552  git status
+  553  git add .
+  554  git commit -m "adding image link for step-3"
+  555  git push
+  556  git status
+  557  git add .
+  558  git commit -"adding a folder for the save_csv functionality"
+  559  git status
+  560  git push
+  561  git commit -m "added a new folder for the save to new csv functionality and edited the app script"
+  562  git push
+  563  clear
+  564  history 50 > terminal_history.txt

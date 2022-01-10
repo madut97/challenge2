@@ -2,11 +2,15 @@
 
 **This project is a new feature which will be added to the our existing loan qualifier app. The new feature will allow users who would like to save their list of qualified loaners as a csv file. The main problem which has inspired us to add this feature is the lack of a save csv functionality, which makes it difficult for the user to access their list of qualified loaners, which they meet the criteria for.**
 
-## Directory 
+## Directory:
 
-* [Progam](app)
+* [Progam](app)s
 
-* [Program Functions](qualifier)
+* [Added Feature](new_csv_creator)
+
+* [Filtering Functions](qualifier/filters)
+
+* [Utility Functions](qualifier/utils)
 
 * [Data files](data)
 

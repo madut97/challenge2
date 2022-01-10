@@ -23,7 +23,7 @@ from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
-from new_csv_creator.new_csv import save_qualified_loans_to_new_csv
+from qualifier.utils.fileio import save_csv    
 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
@@ -114,7 +114,7 @@ def save_qualifying_loans(qualifying_loans):
     else:
         user_answer = questionary.confirm("Would you like to save qualifying loans in a csv file?").ask()
     if user_answer:
-        save_qualified_loans_to_new_csv(qualifying_loans)
+        save_csv(qualifying_loans)
 
 def run():
     """The main function for running the script."""
@@ -136,4 +136,3 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
-
